@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bgMusic" src="lagu.mp3" loop></audio>
+
+    <div class="phone-frame">
+        <div class="content-container">
+            
+            <section id="page1" class="active">
+                <div class="hearts-bg">❤️❤️❤️</div>
+                <h1>Happy Valentine's Day! ❤️</h1>
+                <div class="sticker">
+                    <img src="https://media.tenor.com/7S8oM7i3xXkAAAAi/bear-love.gif" alt="Cute Sticker">
+                </div>
+                <p class="instruction">Click the next button!! (｡˃ ᵕ ˂ )੭♡</p>
+                <button class="btn-next" onclick="startExperience()">Next!! ^w^</button>
+            </section>
+
+            <section id="page2">
+                <h1 class="title-small">Our Memories :3 💍</h1>
+                <div class="grid-memories">
+                    <div class="photo"><img src="foto1.jpg"></div>
+                    <div class="photo"><img src="foto2.jpg"></div>
+                    <div class="photo"><img src="foto3.jpg"></div>
+                    <div class="photo"><img src="foto4.jpg"></div>
+                    <div class="photo"><img src="foto5.jpg"></div>
+                    <div class="photo"><img src="foto6.jpg"></div>
+                </div>
+                <button class="btn-next-small" onclick="nextPage(3)">Next ➔</button>
+            </section>
+
+            <section id="page3">
+                <h1 class="title-small">🎵 A Song Just For You</h1>
+                <div class="yt-card">
+                    <img src="https://img.youtube.com/vi/u6C_8V4jWv0/0.jpg" class="yt-thumb">
+                    <div class="yt-info">
+                        <p class="song-title">A Sweet Song</p>
+                        <p class="song-artist">St. Arnaud</p>
+                    </div>
+                    <p class="song-quote">"This song reminds me of you. Every time I listen to it, I realize how much I want to be closer to you..."</p>
+                </div>
+                <button class="btn-next-small" onclick="nextPage(4)">Next ➔</button>
+            </section>
+
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
